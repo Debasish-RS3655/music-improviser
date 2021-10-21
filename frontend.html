@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <title>Pitch Detection</title>
+    <style type="text/css">
+        .btn {
+            background-color: #4CAF50;
+            font-family: sans-serif;
+            font-size: large;
+            color: #ffffff;
+            width: 150px;
+            height: 50px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .btnArea {
+            text-align: center;
+        }
+
+        div#audio_player {
+            width: 1024px;
+            height: 200px;
+            background: #000;
+            padding: 5px;
+            margin: 50px auto;
+        }
+
+        div#audio_player>div>audio {
+            width: 1024px;
+            background: #000;
+            float: left;
+        }
+        div#audio_player>canvas {
+            width: 1024px;
+            height: 150px;
+            background: #002D3C;
+            float: left;
+        }
+    </style>
+    <h2 align="center">Pitch Detection and recording frontend</h2>
+    <h3 align="center">Debasish (Debashish) Buragohain</h3><br><br>
+    <div id="audio_player">
+        <div id="audio_box"></div>
+        <canvas id="equalizer"></canvas>
+    </div>
+    <br><br>
+    <div class="btnArea">
+        <button class="btn">start listening</button>
+        <button class='btn'>stop listening</button>
+        <button class="btn">Play</button>
+        <button class="btn">Exit</button>
+    </div><br><br>
+    <div id="outputArea"></div>
+    <script src="./frontend.js"></script>
+</body>
+
+</html>
