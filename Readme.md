@@ -3,6 +3,8 @@
 A simple program which takes an MIDI and a lyrics.txt file, improvises it using machine learning, mixes with the original MIDI file, applies 
 the lyrics and plays back in a web interface. 
 
+![img not available](./demo.jpg)
+
 ## Warning 
 Music Improviser is still beta.
 
