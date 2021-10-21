@@ -7,7 +7,7 @@ the lyrics and plays back in a web interface.
 Music Improviser is still beta.
 
 ## Credits
-It's based primarily on Google's AI duet, [mathigatti's midi2voice], Web Audio API and FFT. 
+It's based primarily on [Google's AI duet](https://github.com/googlecreativelab/aiexperiments-ai-duet), [mathigatti's midi2voice](https://github.com/mathigatti/midi2voice), Web Audio API and FFT. 
 
 ## Overview
 The frontend is the interface for recording songs. The backend composed of NodeJS and Python3 are responsible for improvising and combining with
